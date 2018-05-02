@@ -1,5 +1,5 @@
 mongo:
-  container_name: dctb-mongodb
+  container_name: dctb-docker-mongodb
   image: mongo
   volumes:
     - "/Applications/XAMPP/xamppfiles/htdocs/mongodb:/data/db"
