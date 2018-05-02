@@ -1,0 +1,7 @@
+mongo:
+  container_name: dctb-mongodb
+  image: mongo
+  volumes:
+    - "/Applications/XAMPP/xamppfiles/htdocs/mongodb:/data/db"
+  ports:
+    - "27017:27017"
